@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">EvaUnidad2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="brawlQueSos">¿Qué personaje de brawl eres?</string>
+    <string name="empezar">Empecemos</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="pregunta_one">¿Qué tanto te gusta spammear?</string>
+    <string name="pregunta_two">¿Qué tanto parry haces en las partidas?</string>
+    <string name="pregunta_three">De la Beta de armas... ¿Cuál de estas te gusta más?</string>
+    <string name="pregunta_four">¿Qué tanto sueles dejar tu GG despues de cada partida?</string>
+    <string name="pregunta_five">¿Cuál es tu elo actual?</string>
+
+
+</resources>

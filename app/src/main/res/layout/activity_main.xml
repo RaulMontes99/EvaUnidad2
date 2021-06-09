@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <ImageView
+        android:id="@+id/imgGames"
+        android:layout_width="267dp"
+        android:layout_height="182dp"
+        android:layout_below="@+id/txtMenu"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="72dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="-18dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/brawlhalla_principal" />
+
+    <Button
+        android:id="@+id/btnComenzar"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgGames"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="116dp"
+        android:background="#4ad2ff"
+        android:text="@string/empezar" />
+
+    <TextView
+        android:id="@+id/txtMenu"
+        android:layout_width="308dp"
+        android:layout_height="63dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="84dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/brawlQueSos"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+</RelativeLayout>

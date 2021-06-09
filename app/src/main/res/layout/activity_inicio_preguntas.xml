@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InicioPreguntaActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <FrameLayout
+        android:id="@+id/framelayoutid"
+        android:layout_width="match_parent"
+        android:layout_height="507dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentRight="true">
+
+    </FrameLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/siguiente"
+        android:textSize="15dp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:layout_below="@+id/framelayoutid"
+        android:layout_margin="10dp"
+        android:layout_alignParentRight="true"
+        android:background="#000000"
+        android:id="@+id/btnSiguiente">
+
+    </Button>
+
+    <ProgressBar
+        android:id="@+id/progressBar6"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="576dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="115dp"
+        android:scaleX="3"
+        android:scaleY="4" />
+
+</RelativeLayout>
